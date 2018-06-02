@@ -1,7 +1,7 @@
 pragma solidity ^0.4.23;
 
-import "../myPro/node_modules/openzeppelin-solidity/contracts/token/ERC20/StandardToken.sol";
-import "../myPro/node_modules/openzeppelin-solidity/contracts/ownership/Ownable.sol";
+import "./token/ERC20/StandardToken.sol";
+import "./ownership/Ownable.sol";
 
 contract MyFirstToken is StandardToken, Ownable {
   string public name;
